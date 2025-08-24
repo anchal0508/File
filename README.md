@@ -13,14 +13,17 @@ Prerequisites:
 ========================== Required Software ===========================
 ==========================+++++++++++++++++++===========================
 
+
 JDK: For Java programming
 
 https://download.oracle.com/java/24/latest/jdk-24_windows-x64_bin.exe
 ==============================++++++++++================================
+
 Notepad++: For basic understanding of Code
 
 https://notepad-plus-plus.org/downloads/v8.8.5/
 ==============================++++++++++================================
+
 VS Code: For programming
 
 https://code.visualstudio.com/download
