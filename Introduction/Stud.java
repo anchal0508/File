@@ -64,6 +64,7 @@ class Stud {
 		b = a / b;	//15 - 10 = 5
 		a = a / b;	// 15 - 5 = 10
 		System.out.println("After Swapping a: " + a + " b: " + b);
+		System.out.println("After Swapping a: " + a + " b: " + b);
 
 	}
 }
