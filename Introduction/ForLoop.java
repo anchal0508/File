@@ -21,7 +21,39 @@ class ForLoop {
 }
 
 */
+/*
+//Table of 2 - 10 Times
+ class ForLoop {
+	public static void main(String[] args) {
+		for (int j = 1; j <= 10; j++) {
+			for (int i = 1; i <= 10; i++) {
+				System.out.print(" "+i*2);
+			}
+			System.out.println();
+		}
 
+	}
+}
+ 
+ 
+ */
+
+ /*
+//Table from 2 - 10 
+ class ForLoop {
+	public static void main(String[] args) {
+		for (int j = 1; j <= 10; j++) {
+			for (int i = 1; i <= 10; i++) {
+				System.out.print(i*j+"\t");
+			}
+			System.out.println();
+		}
+
+	}
+}
+ 
+ 
+ */
 class ForLoop {
 	public static void main(String[] args) {
 		for (int j = 1; j <= 10; j++) {
