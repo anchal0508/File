@@ -112,6 +112,7 @@ class Stud {
 
 */
 
+/*
 class Stud {
 	public static void main(String[] args) {
 
@@ -147,3 +148,128 @@ class Stud {
 		
 	}
 }
+*/
+
+
+/*
+class Stud {
+static void cutStar(){
+	for (int i = 6; i <= 9; i++) {
+			for (int j = 9; j >= i; j--) {
+				System.out.print("  ");
+			}
+			for (int j = 0; j <= i; j++) {
+				System.out.print("*   ");
+			}
+			System.out.println();
+		}
+}
+	public static void main(String[] args) {
+		for (int i = 0; i <= 9; i++) {
+			for (int j = 9; j >= i; j--) {
+				System.out.print("  ");
+			}
+			for (int j = 0; j <= i; j++) {
+				System.out.print("*   ");
+			}
+			System.out.println();
+		}
+		cutStar();
+		cutStar();
+		cutStar();
+		 for (int i = 0; i <= 9; i++) {
+			 
+			for (int j = 0; j <= 3; j++) {
+				System.out.print("    ");
+			}
+			for (int j = 0; j <= 3; j++) {
+				System.out.print("*   ");
+			}
+			System.out.println();
+		}
+	}
+}
+
+*/
+/*
+// Twinkel Star
+class Stud {
+
+	public static void main(String[] args) {
+		for (int i = 1; i <= 5; i++) {
+			for (int j = 15; j >= i; j--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*   ");
+			}
+			System.out.println();
+		}
+		for (int i = 15; i >= 11; i--) {
+			for (int j = 15; j >= i; j--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*   ");
+			}
+			System.out.println();
+		}
+		for (int i = 11; i <= 15; i++) {
+			for (int j = 15; j >= i; j--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*   ");
+			}
+			System.out.println();
+		}
+		for (int i = 5; i >= 1; i--) {
+			for (int j = 15; j >= i; j--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print("*   ");
+			}
+			System.out.println();
+		}
+	}
+}
+
+*/
+
+/*
+// Star Frame
+class Stud {
+	public static void main(String[] args) {
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 1; j <= 9; j++) {
+				if (j >= 3 && j <= 7 && i >= 3 && i <= 7 )
+					System.out.print(" " + " ");
+				else
+					System.out.print("*" + " ");
+			}
+			System.out.println();
+		}
+	}
+}
+
+*/
+
+public class Stud {
+
+	public static void main(String[] args) {
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 9; j >= i; j--) {
+				System.out.print("  ");
+			}
+			for (int j = 1; j <= i; j++) {
+				if (j > 1 && j < i && i!=5 && i!=6)
+					System.out.print(" " + "   ");
+				else
+					System.out.print("*" + " * ");
+			}
+			System.out.println();
+		}
+	}
+}
+
