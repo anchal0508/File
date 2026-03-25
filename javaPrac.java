@@ -3,3 +3,6 @@ class javaPrac{
     System.out.println("Hello");
   }
 }
+/*
+  Adding a comment
+*/
